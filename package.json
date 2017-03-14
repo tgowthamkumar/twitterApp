@@ -1,0 +1,19 @@
+{
+  "name": "twitterapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulp.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgowthamkumar/twitterApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgowthamkumar/twitterApp/issues"
+  },
+  "homepage": "https://github.com/tgowthamkumar/twitterApp#readme"
+}

@@ -1,0 +1,35 @@
+<div ng-controller="usersCtrl">
+    <div class="row">
+        <div class="col-xs-6">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+
+                        <td><a href="" ng-click="sortBy('username')">User Name</a></td>
+                        <!--<td><a href="" ng-click="sortBy('email')">Email</a></td>
+<td>Date Of Birth</td>
+<td>Phone
+    <select class="form-control" ng-model="selectedCountry" ng-options="country.code for country in countries">
+    </select>
+</td>-->
+
+                    </tr>
+                </thead>
+                <tr ng-repeat="item in users">
+                    <!-- <tr ng-repeat="item in users|filter:userSearch">-->
+                    <!--<td>{{$index+1}}</td>-->
+                    <td>
+                        <a href="" ng-click="loadDetails(item)"> {{item.username|uppercase}}</a></td>
+                    <td>{{item.email|lowercase}}</td>
+                    <td>{{item.DOB}}</td>
+                    <td>{{item.phoneNumber |phoneformat:selectedCountry.code:selectedCountry.phonecode}}
+
+                </tr>
+            </table>
+        </div>
+        <div class="col-xs-6">
+            <div user-details username="details.username" email="{{details.email}}" dob="{{details.DOB}}"></div>
+        </div>
+    </div>
+
+</div>

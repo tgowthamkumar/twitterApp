@@ -1,0 +1,86 @@
+{
+    "tweets": [
+        {
+            "username": "kiran",
+            "tweetDate": "5/31/2016 8.30am",
+            "post": "This is the way to build a twitter",
+            "likes": [
+                {
+                    "likedUser": "ravi",
+                    "likeDate": "5/31/2016 8.32am"
+            },
+                {
+                    "likedUser": "teja",
+                    "likeDate": "5/31/2016 8.34am"
+            },
+                {
+                    "likedUser": "reene",
+                    "likeDate": "5/31/2016 8.35am"
+            }
+         ],
+            "comments": [
+                {
+                    "commentedUser": "ravi",
+                    "commentDate": "5/31/2016 8.32am",
+                    "comment": "What are u teaching........"
+            },
+                {
+                    "commentedUser": "krishna",
+                    "commentDate": "5/31/2016 8.34am",
+                    "comment": "Its nothing"
+            },
+                {
+                    "commentedUser": "Chandra",
+                    "commentDate": "5/31/2016 8.32am",
+                    "comment": "Its nothing...!!"
+            },
+                {
+                    "commentedUser": "John",
+                    "commentDate": "5/31/2016 8.32am",
+                    "comment": "Its amazing"
+            }
+         ]
+      },
+        {
+            "username": "Krishna",
+            "tweetDate": "5/31/2016 8.30am",
+            "post": "I don't agree",
+            "likes": [
+                {
+                    "likedUser": "ravi",
+                    "likeDate": "5/31/2016 8.32am"
+            },
+                {
+                    "likedUser": "teja",
+                    "likeDate": "5/31/2016 8.34am"
+            },
+                {
+                    "likedUser": "reene",
+                    "likeDate": "5/31/2016 8.35am"
+            }
+         ],
+            "comments": [
+                {
+                    "commentedUser": "ravi",
+                    "commentDate": "5/31/2016 8.32am",
+                    "comment": "What are u teaching........"
+            },
+                {
+                    "commentedUser": "krishna",
+                    "commentDate": "5/31/2016 8.34am",
+                    "comment": "Its nothing"
+            },
+                {
+                    "commentedUser": "Chandra",
+                    "commentDate": "5/31/2016 8.32am",
+                    "comment": "Its nothing...!!"
+            },
+                {
+                    "commentedUser": "John",
+                    "commentDate": "5/31/2016 8.32am",
+                    "comment": "Its amazing"
+            }
+         ]
+      }
+   ]
+}

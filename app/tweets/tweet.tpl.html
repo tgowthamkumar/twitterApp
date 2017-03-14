@@ -1,0 +1,27 @@
+<div ng-controller='tweetCtrl'>
+    <div class="panel panel-default" ng-repeat="tweet in tweets">
+        <div class="panel panel-heading">
+            <a href="">{{tweet.username}}</a></div>
+        <div class="panel-body">
+            {{tweet.post}}
+        </div>
+        <div class="panel-footer clearfix">
+            <div class="pull-left">
+                <a href="#">
+                    <span class="glyphicon glyphicon-heart"></span>
+                </a>
+                <label class="badge">{{tweet.likes.length}}</label>
+                <a href="" ng-click="tweet.displayComments=!tweet.displayComments">
+                    <labael class="badge">comments</label>
+                </a>
+                <div class="panel" ng-show="tweet.displayComments" ng-repeat="item in tweet.comments|limitTo:tweet.commentCount">
+                    <div class="panel -body">
+                        <a href="">@{{item.commentedUser}} </a> {{item.comment}}
+                    </div>
+                    <br> {{item.commentDate}}
+                </div>
+            </div>
+            <a href="" ng-click="showMoreComments(tweet)">show more Comments</a>
+        </div>
+    </div>
+</div>

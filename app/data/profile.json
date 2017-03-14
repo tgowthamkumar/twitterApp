@@ -1,0 +1,31 @@
+{
+    "profiles": [
+        {
+            "username": "abcd123",
+            "email": "gkiran@gmail.com",
+            "phoneNumber": "9959688870",
+            "DOB": "12/12/1986"
+    }, {
+            "username": "ravi1234",
+            "email": "sravi@gmail.com",
+            "phoneNumber": "6474648909",
+            "DOB": "23/02/1987"
+    }, {
+            "username": "Reene1234",
+            "email": "Reene@gmail.com",
+            "phoneNumber": "9384938390",
+            "DOB": "26/09/1987"
+    }, {
+            "username": "teja222",
+            "email": "kteja@gmail.com",
+            "phoneNumber": "9838373990",
+            "DOB": "27/05/1989"
+    },
+        {
+            "username": "bdef",
+            "email": "akira@gmail.com",
+            "phoneNumber": "9959688870",
+            "DOB": "12/12/1986"
+    }
+    ]
+}

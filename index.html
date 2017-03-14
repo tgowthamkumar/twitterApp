@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="twitterApp">
+
+<head>
+    <title>{{appName}}</title>
+    <link rel="stylesheet" href="content/css/bootstrap.css">
+    <link rel="stylesheet" href="content/css/bootstrap-theme.css">
+    <script src="vendor/jquery-2.2.0.js"></script>
+    <script src="vendor/bootstrap.js"></script>
+    <script src="vendor/angular.min.js"></script>
+    <script src="vendor/angular-ui-router.js"></script>
+</head>
+
+<body>
+    <div class="container" ng-controller='mainCtrl'>
+        <div ng-include="navBarUrl"></div>
+        <div ng-include="contentUrl"></div>
+    </div>
+    <!--login module-->
+    <script src="app/login/login.js"></script>
+    <script src="app/login/loginCtrl.js"></script>
+    <!--end of login module-->
+
+    <!--register--module-->
+    <script src="app/register/register.js"></script>
+    <script src="app/register/registerCtrl.js"></script>
+
+    <!--register module complete-->
+    <!--tweet Module-->
+    <script src="app/tweets/tweet.js"></script>
+    <script src="app/tweets/tweetSvc.js"></script>
+    <script src="app/tweets/tweetCtrl.js"></script>
+    <!--Tweet module End-->
+    <script src="app/app.js"></script>
+    <script src="app/users/userSvc.js"></script>
+    <script src="app/common/tabSvc.js"></script>
+    <script src="app/common/mainCtrl.js"></script>
+    <script src="app/users/usersCtrl.js"></script>
+    <script src="app/common/phoneformat.js"></script>
+
+
+</body>
+
+</html>
